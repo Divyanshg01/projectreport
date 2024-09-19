@@ -1,4 +1,72 @@
-\documentclass{article}
+\documentclass[14pt ,a4paper]{extarticle}
+\usepackage[top=1in , bottom=1in , left=0.5in , right=0.5in]{geometry}
+\usepackage{graphicx}
 \begin{document}
-\huge{Hello world} 
+\tableofcontents
+\pagebreak
+
+\section{Fault Classification}
+\begin{itemize}
+    \item{There are primarily open and short circuit faults}
+    \item{Faults can be located using terminal fault location methods or cable screening methods}
+
+    \item{Open Circuit fault occurs in the series of transmission line - Open Conductor Fault , 2 open conductor fault , 3 open conductor fault which causes excessive current to flow into the system}
+    \item{They can be tolerated but if higher power then insulation breaks down and short circuit fault occurs}
+    \item{Short Circuit Fault occurs due to insulation failure between a phase conductors and ground}
+    \item{These includes}
+        \begin{enumerate}
+            \item{Symmetrical Faults}
+            \item{Unsymmetrical Faults}
+        \end{enumerate}
+        \vspace{40pt}
+    \subsection{Symmetrical Faults}
+    \item{Arcing due to faults can lead to fire}
+    \item{Voltage can fall below permissible value}
+        \begin{center}
+                \includegraphics[width=0.6\textwidth]{./assets/Two-most-common-symmetrical-fault-types.png}
+            \end{center}    
+        \item{Symmetrical Faults involves all three phases like}
+
+        \begin{enumerate}
+            \item{L-L-L}
+            \item{L-L-L-G}
+        \end{enumerate}
+    \item{Majority of symmetrical faults occur at generator terminals , system stays balance but electrical equipments can get severly damaged}
+    \item{They are the most severe type of fault with highest fault current but they happens rarely}
+        \subsection{Unsymmetrical Faults}
+    
+    \item{These fault causes unsymmetrical current , meaning variation in phase and magnitude throughout all three phases }
+
+    \item{These faults are more frequent faults }
+    \item{They involves}
+        \begin{enumerate}
+            
+            \item{L-G} 
+            \item{L-L} 
+            \item{L-L-G} 
+            
+        \end{enumerate}
+        \begin{center}
+                \includegraphics[width=0.6\textwidth]{./assets/Unsymmetrical-Faults-on-Three-Power-System.jpg}
+            \end{center}    
+    \item{In these faults conductors make contact with other conductor or with the ground or both}
+    \item{L-L faults occurs mainly due to 2 lines swinging because of high speed winds}
+    \item{Here the system is unbalanced because impedance level in each phase differs , causing unbalanced current to flow between the phases}
+        
+\end{itemize}
+\section{ML Application in Fault Analysis}
+
+\section{ Research Papers }
+
+\subsection{Integrating discrete wavelet transform with neural networks and machine
+learning for fault detection in microgrids}
+
+\begin{itemize}
+    \item{Additional difficulties in microgrid fault detection due to distributed generation specifically the bidirectional flow of energy} 
+    \item{conventional systems are ineffective due to low value of fault current in MG}
+    \item{Techniques of protection differs on whether the MG is connects to main grid or is working in isolation mode}
+    \item{It involves generator of different capacities and types of fault current producd at various levels}
+    \item{DWT extracts wavelet coefficients}
+    \item{}
+\end{itemize}
 \end{document}
