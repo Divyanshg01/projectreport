@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1726772595.7461 "file.tex" "file.pdf" "file" 1726772596.23298 0
+["pdflatex"] 1726775875.82222 "file.tex" "file.pdf" "file" 1726775876.22622 0
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1716849630 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1716849630 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1440.tfm" 1716849630 1536 3290a75021d32d016616fe527bc9884c ""
@@ -34,9 +34,9 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1725720092 7113022 c9ab7d5e4f81932db91e7ba0eb755626 ""
   "assets/Two-most-common-symmetrical-fault-types.png" 1726771267.68736 57091 28012c84645472456e50a596f413c871 ""
   "assets/Unsymmetrical-Faults-on-Three-Power-System.jpg" 1726772433.52206 19968 6257631e1822600834d2245ec99ef58a ""
-  "file.aux" 1726772596.16985 796 a15953b6415881d0a415f7f2aca91c2f "pdflatex"
-  "file.tex" 1726772595.00984 3363 83be8806aa00a12548f4e49d2ca701c0 ""
-  "file.toc" 1726772596.16985 518 e43427138cfdba8b050181a906836e30 "pdflatex"
+  "file.aux" 1726775876.17 805 f9f53dad7b1e4e84efcef1cc4a124f8e "pdflatex"
+  "file.tex" 1726775874.89332 4892 e442b3f5ec0227df95f640e8762377b5 ""
+  "file.toc" 1726775876.17 527 34042cccbc9f3e12265cf51cf9f2c2a2 "pdflatex"
   (generated)
   "file.aux"
   "file.log"
