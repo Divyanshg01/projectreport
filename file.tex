@@ -59,14 +59,19 @@
     \item{Here the system is unbalanced because impedance level in each phase differs , causing unbalanced current to flow between the phases}
         
 \end{itemize}
-\section{ML Application in Fault Analysis}
+\section{Machine Learning Application in Fault Analysis}
 \begin{itemize}
+    \item{In These applications first data is extracted out using Techniques like Discrete Wavelet Transform , fourier transform etc. Then this data is fed into the ML on basis of which it gives result. We can automate the process of fault detection with ML}
     \item{Machine Learning (ML) algorithms can be incredibly effective at identifying abnormal patterns in sensor data, which can signal potential faults or anomalies within a system.A technique by the name of Anomaly Detection can be used here.}
-    \item{Techniques like Recurrent Neural Networks (RNNs) can analyze time-series data from sensors to detect faults based on temporal dependencies(severity of a fault is dependent on its relationship with other faults.}
+    \item{Machine Learning can be used for fault detection as well as fault diagnosis(FDD)}
     \item{We can use Supervised learning(with the help of labelled dataset) to classify faults into short circuit and open circuit faults}
     \item{ML models can be used to predict faults and do timely maintenance of the system using past data}
     \item{Specific location of faults can be identified with the help of ML models which can significantly reduce clearing time of the system  }
+    \item{Techniques like Recurrent Neural Networks (RNNs) can analyze time-series data from sensors to detect faults based on temporal dependencies(severity of a fault is dependent on its relationship with other faults.}
     \item{Convolution Neural Networks(CNNs) can be trained on fault signatures (waveforms ,phasors ) to classify faults  }
+    \item{Clustering algorithm can be used to divide fault into groups on the basis of severity}
+    \item{RBFNN(Radial Basis Function Neural Network) is an Artificial Neural Network which can be used for prediction for a non-linear data set . It consists of a radial basis function used to determine faults}
+    \item{ML can be used to detect faults in real time for a complex system like a Smart Grid where bi-directional flow of energy occurs , which can include Microgrids that can work with the main grid or in isolation}
 \end{itemize}
 
 \section{ Research Papers }
@@ -81,5 +86,24 @@ learning for fault detection in microgrids}
     \item{It involves generator of different capacities and types of fault current producd at various levels}
     \item{DWT extracts wavelet coefficients}
 
+    \item{Paper suggests RBFNN for FDD of faults, DWT is used for extracting time-frequency domain characteristics}
+    \item{Equation of DWT is 
+            $$
+            d_{j,k} = \int \limits_{- \infty}^{ \infty } s(t)\psi^*_{a,b}(t)dt = \langle{s(t), \psi_{j,k}(t) } \rangle 
+            $$
+        }
+    \item{Usually an approximation is done to calculate them }
+    \item{The decomposition level is determined by signal size and wavelet properties}
+    \item{db family of wavelet is used in this}
+    \item{During the learning
+process of the RBFNN, new hidden units are allocated, and network
+parameters are adjusted. Initially, the network starts with no hidden
+units, and as training progresses, additional hidden units are added
+based on the novelty of the data. }
+\item{MSE(Mean Squarred Error and $R^2$ (R squared) are used to evaluate performance of models)}
+    
+\item{Moore-Penrose Algorithm gave the best results ,Levenberg-Marquardt, Conjugate Gradient, and Resilient-Backpropagation also showed good results,}
+
+\item{The data for training was normalized for training the model}
 \end{itemize}
 \end{document}
